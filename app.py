@@ -33,7 +33,7 @@ def media_content(url):
 
 
 @app.route('/whatsapp', methods=['POST'])
-def whatsapp_entry():
+def whatsapp():
     # Whatsapp number message comes frome
     _from = request.form['From']
     # Twilio sandbox number
